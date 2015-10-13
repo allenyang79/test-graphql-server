@@ -15,7 +15,26 @@ mutation
 mutation RootMutationType {
   updateCount
 }
+// or
+mutation RootMutationType {
+    a:updateCount
+    b:updateCount
+    c:updateCount
+}
+// or
+mutation RootMutationType {
+    hello(name:"qqq")
+
+}
 ```
+
+
+
+other usage
+```
+query RootQueryType { count,foo,bar,tasks }
+```
+
 
 *** Schema ***
 
